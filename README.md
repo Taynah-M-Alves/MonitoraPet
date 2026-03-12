@@ -8,8 +8,9 @@ PROPOSTA DE PROJETO INTEGRADOR DA DISCIPLINA DE APLICAÇÕES MÓVEIS
 2. **Natália Terra** - *Desenvolvedora Front-End, Líder Técnico, UX/UI Designer.*
 3. **Taynah Alves** - *Desenvolvedora Back-End.*
 
-**Projeto Escolhido:**
-Descrição: Aplicativo com função de conectar Pet Shops e donos de animais domésticos e notificar os tutores do status do atendimento do animal sob cuidado dos estabelecimentos.
+**Projeto Escolhido:  MonitoraPet**   
+    
+**Descrição:** Aplicativo com função de conectar Pet Shops e donos de animais domésticos e notificar os tutores do status do atendimento do animal sob cuidado dos estabelecimentos.
 
 **Funcionalidades Principais:**
 
