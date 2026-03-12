@@ -22,4 +22,5 @@ PROPOSTA DE PROJETO INTEGRADOR DA DISCIPLINA DE APLICAÇÕES MÓVEIS
 5. Ficha de vacina, vermifugos e histórico de atendimento geral do pet (perfil pessoal);
 
 **Público-alvo:** Pet Shops e donos de animais domésticos.
+
 **Diferencial:** Múltiplas funcionalidades na mesma aplicação, praticidade para usuários.
