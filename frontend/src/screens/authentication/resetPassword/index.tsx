@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { Image, Text, TouchableOpacity, View } from 'react-native';
-import { Input } from '../../../components/input'
-import { styles } from './styles'
+import { Input } from '../../../components/input';
+import { styles } from './styles';
 
 export function ResetPasswordScreen() {
     return (
@@ -24,16 +24,14 @@ export function ResetPasswordScreen() {
                     keyboardTypeProp='default'
                     isPassword={true} />
 
-                <Text style={styles.voltarLogin}>Lembrou a senha? <Text style={styles.LoginLink}>Login</Text></Text>
+                <Text style={styles.voltarLogin}>Lembrei a senha? <Text style={styles.LoginLink}>Entrar</Text></Text>
 
                 <TouchableOpacity style={styles.button}>
                     <Text style={styles.buttonLabel}>Salvar Senha</Text>
                 </TouchableOpacity>
             </View>
 
-
             <StatusBar style="auto" />
         </View>
     );
 }
-
