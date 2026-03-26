@@ -36,7 +36,29 @@ export const styles = StyleSheet.create({
     top: 340,
     fontWeight: 'bold',
     color: '#8b8b8b'
-  }
-
+  },
+  botaoEmail:{
+    backgroundColor:'#2e6693',
+    width: 300,
+    alignSelf:'center',
+    marginTop:18,
+    position: 'absolute',
+    top: 400,
+    padding: 15,
+    borderRadius:10,
+    elevation: 6,
+    shadowColor:'black',
+  },
+  enviarEmail:{
+    fontSize: 17,
+    color: '#fff',
+    fontWeight:'bold',
+    textTransform: 'uppercase',
+    textShadowColor: '#21384b',
+    textShadowOffset: {width: 2, height: 2},
+    textShadowRadius: 20,
+    shadowOpacity: 0.8,
+    textAlign: 'center',
+  },
  }
 )

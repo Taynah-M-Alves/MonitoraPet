@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Image, View,Text } from 'react-native';
+import { Image, View, Text, TouchableOpacity } from 'react-native';
 import {styles} from './styles'
 import { Input } from '../../../components/input';
 
@@ -20,7 +20,11 @@ export function ForgotPassScreen() {
                 labelProp='Email'
                 placeholderProp='Digite seu email'
                 keyboardTypeProp= 'email-address'
-                isPassword= {false}/>
+                isPassword= {false}/>            
+          
+          <TouchableOpacity style={styles.botaoEmail}>
+            <Text style={styles.enviarEmail}>Enviar Email</Text>
+          </TouchableOpacity>
         </View>
     </View>
   );
