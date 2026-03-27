@@ -1,28 +1,16 @@
-//import { StatusBar } from 'expo-status-bar';
-//import { StyleSheet} from 'react-native';
-import {ForgotPassScreen} from './screens/authentication/ForgotPass'
-//import {SignUpScreen} from './screens/authentication/signUp'
+import {ForgotPassScreen} from './screens/authentication/forgotPass'
+import {SignUpScreen} from './screens/authentication/signUp'
+import {LoginScreen} from './screens/authentication/login'
+import {HomeScreen} from './screens/home/index'
+import{ ResetPasswordScreen} from './screens/authentication/resetPassword'
 
-//export function App() {
-  //return (
-    //<View style={styles.container}>
-        //<SignUpScreen/>
-      //<StatusBar style="auto" />
-    //</View>
-  //);
-//}
 
 export function App() {
   return (
-    <ForgotPassScreen/>
+      // <SignUpScreen/>
+      // <ForgotPassScreen/>
+      // <ResetPasswordScreen/>
+      //  <LoginScreen/>
+      <HomeScreen/>
  );
 }
-
-//const styles = StyleSheet.create({
-  //container: {
-    //flex: 1,
-    //backgroundColor: '#fff',
-    //alignItems: 'center',
-    //justifyContent: 'center',
-  //},
-//});

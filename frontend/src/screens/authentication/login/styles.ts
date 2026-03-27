@@ -14,7 +14,8 @@ export const styles = StyleSheet.create({
   naoTemConta:{
     fontSize:20,
     alignSelf:'center',
-    fontWeight:'600'
+    fontWeight:'600',
+    marginVertical: 12,
   },
   signUpLink:{
     color:'#d47c2f',

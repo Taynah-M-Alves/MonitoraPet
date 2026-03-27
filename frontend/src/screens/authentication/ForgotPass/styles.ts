@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native'
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
@@ -18,31 +18,18 @@ export const styles = StyleSheet.create({
     color: '#2e6693',
     fontSize: 35,
     fontWeight: "bold",
-    textTransform: 'uppercase',
     textShadowColor: '#d3d3d3',
     textShadowOffset: {width: 2, height: 2},
     textShadowRadius: 20,
     shadowOpacity: 0.8,
-    position: 'absolute',
-    top: 275,
     justifyContent: 'center',
-  },
-  textoEmail: {
-    textAlign: 'center',
-    fontSize: 23,
-    paddingHorizontal: 60,
-    position: 'absolute',
-    top: 340,
-    fontWeight: 'bold',
-    color: '#8b8b8b'
+    marginBottom: 20,
   },
   botaoEmail:{
     backgroundColor:'#2e6693',
     width: 300,
     alignSelf:'center',
-    marginTop:18,
-    position: 'absolute',
-    top: 100,
+    marginTop:20,
     padding: 15,
     borderRadius:10,
     elevation: 6,

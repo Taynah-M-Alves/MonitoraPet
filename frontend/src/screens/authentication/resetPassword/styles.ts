@@ -19,6 +19,9 @@ export const styles = StyleSheet.create({
     },
     LoginLink: {
         color: '#d47c2f',
+        alignSelf: 'center',
+        fontSize: 20,
+
     },
     button: {
         backgroundColor: '#2e6693',

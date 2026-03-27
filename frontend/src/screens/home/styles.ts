@@ -41,6 +41,8 @@ export const styles = StyleSheet.create({
     shadowRadius: 4,
     overflow: 'hidden',
     paddingBottom: 10,
+    marginBottom: 10,
+    marginLeft: 5,
   },
   petImage: {
     width: '100%',

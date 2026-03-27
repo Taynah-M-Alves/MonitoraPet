@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { Image, Text, TouchableOpacity, View } from 'react-native';
+import { Image, Text, TouchableOpacity, View, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { Input } from '../../../components/input'
 import { styles } from './styles'
 
 export function LoginScreen() {
   return (
-    <View style={styles.container}>
+
+    <KeyboardAvoidingView style={{ flex: 1 }}
+          behavior={Platform.OS === "ios" ? "padding" : "height"}>
+    <ScrollView contentContainerStyle={styles.container}>
       <Image
         source={require('../../../../assets/logo.jpeg')}
         style={styles.image}
@@ -24,7 +27,7 @@ export function LoginScreen() {
           keyboardTypeProp='default'
           isPassword={true} />
 
-        <Text style={styles.naoTemConta}>Não tem uma conta? <Text style={styles.signUpLink}>Cadastre-se</Text></Text>
+        <Text style={styles.naoTemConta}>Não tem uma conta?<Text style={styles.signUpLink}>Cadastre-se</Text></Text>
 
         <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonLabel}>Entrar</Text>
@@ -32,6 +35,7 @@ export function LoginScreen() {
       </View>
 
       <StatusBar style="auto" />
-    </View>
+    </ScrollView>
+    </KeyboardAvoidingView>
   );
 }
